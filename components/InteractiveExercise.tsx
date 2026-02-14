@@ -56,7 +56,7 @@ export default function InteractiveExercise({ questions, title = 'Vežba' }: Int
   }
 
   if (completed) {
-    const percentage = Math.round((score / questions.length) * 100)
+    const percentage = ((score / questions.length) * 100)
     return (
       <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-8 rounded-lg shadow-lg">
         <h3 className="text-3xl font-bold mb-4">🎉 Završio/la si vežbu!</h3>
