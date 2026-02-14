@@ -1,5 +1,4 @@
 'use client'
-
 import Math from '@/components/Math'
 import InteractiveExercise from '@/components/InteractiveExercise'
 

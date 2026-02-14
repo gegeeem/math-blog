@@ -4,7 +4,7 @@
   "description": "Matematički blog za osnovnu školu",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },

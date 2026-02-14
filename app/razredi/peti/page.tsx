@@ -3,6 +3,11 @@ import Link from 'next/link'
 export default function PetiRazred() {
   const lekcije = [
     {
+      slug: 'susedni-uglovi',
+      naslov: 'Susedni uglovi',
+      opis: 'zbir i razlika susednih uglova, prav ugao, pravi ugao, pun ugao',
+    },
+    {
       slug: 'prirodni-brojevi',
       naslov: 'Prirodni brojevi',
       opis: 'Šta su prirodni brojevi, pisanje i čitanje velikih brojeva',
